@@ -19,4 +19,6 @@ default = []
 anchor-lang = "0.29.0"
 anchor-spl = "0.29.0"
 amm-anchor = { git = "https://github.com/raydium-io/raydium-contract-instructions", package = "amm-anchor" }
-solana-program = ">=1.16, <1.18"
+solana-program = "<1.17.0"
+spl-memo = "=4.0.0"
+spl-token = "=4.0.0"
